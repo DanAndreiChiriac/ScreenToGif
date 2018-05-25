@@ -1,0 +1,7 @@
+1. Entry point
+
+The app starts in App.xaml, Application_Startup. First it parses arguments, handles localization and verifies if some .NET dependencies are present. Then it handles the notification tray
+and initiates startup sequence.
+
+2. Tray Icon
+
